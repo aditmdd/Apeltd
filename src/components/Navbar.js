@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { MdGraphicEq } from "react-icons/md";
 import { useMoralis } from "react-moralis";
-import { defaultImgs } from "../defaultimgs";
-
-
-
+// import { defaultImgs } from "../defaultimgs";
 
 function NavBar() {
   /* Close the drawer when the user clicks outside of it */

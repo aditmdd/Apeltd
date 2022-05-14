@@ -3,15 +3,15 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
-import Sidebar from "./components/Sidebar";
-import Rightbar from "./components/Rightbar";
+// import Sidebar from "./components/Sidebar";
+// import Rightbar from "./components/Rightbar";
 import "./App.css";
 import { useMoralis } from "react-moralis";
 import { ConnectButton, Icon } from "web3uikit";
 import Navbar from "./components/Navbar";
 
 const App = () => {
-  const { isAuthenticated, Moralis } = useMoralis();
+  const { isAuthenticated } = useMoralis();
 
   return (
     <>

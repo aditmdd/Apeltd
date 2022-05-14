@@ -1,9 +1,9 @@
 import React from "react";
 import "./TweetInFeed.css";
-import golf from "../images/golf.png";
-import canoe from "../images/canoe.png";
+// import golf from "../images/golf.png";
+// import canoe from "../images/canoe.png";
 import { defaultImgs } from "../defaultimgs";
-import { Icon } from "web3uikit";
+// import { Icon } from "web3uikit";
 import { useMoralis } from "react-moralis";
 import { useEffect, useState } from "react";
 

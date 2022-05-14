@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Settings.css";
 import { useState, useRef, useEffect } from "react";
 import { Input } from "web3uikit";

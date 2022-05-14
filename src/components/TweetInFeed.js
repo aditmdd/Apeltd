@@ -28,7 +28,7 @@ const TweetInFeed = ({ profile }) => {
       }
     }
     getTweets();
-  }, [profile]);
+  }, []);
 
   return (
     <>
@@ -36,7 +36,7 @@ const TweetInFeed = ({ profile }) => {
         return (
           <>
             <div className="feedTweet">
-              <img src={e.attributes.tweeterPfp ? e.attributes.tweeterPfp : defaultImgs[0]} className="profilePic"></img>
+              <img src={e.attributes.tweeterPfp ? e.attributes.tweeterPfp : defaultImgs[0]} className="profilePic" alt="Feed of Post"></img>
               <div className="completeTweet">
                 <div className="who">
                 {e.attributes.tweeterUserName.slice(0, 6)}
@@ -54,6 +54,7 @@ const TweetInFeed = ({ profile }) => {
                         <img
                           src={e.attributes.tweetImg}
                           className="tweetImg"
+                          alt="Post image"
                         ></img>
                       )}
                 </div>

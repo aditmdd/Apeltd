@@ -37,7 +37,7 @@ const Rightbar = () => {
         labelBgColor="#141d26" 
         >
       </Input> */}
-
+      
     <div className="trends">
       Latest News
       {trends.map((e) => {

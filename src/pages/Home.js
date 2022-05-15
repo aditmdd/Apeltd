@@ -117,7 +117,7 @@ const Home = () => {
             <TextArea 
               label=""
               name="tweetTxtArea"
-              value="I think about..."
+              value=""
               placeholder="Type Here..."
               type="text"
               onChange={(e) => setTweet(e.target.value)}

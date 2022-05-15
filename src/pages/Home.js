@@ -135,10 +135,10 @@ const Home = () => {
                   onChange={changeHandler}
                   style={{ display: "none"}}
                 />
-              <Icon fill="#27ae60" size={20} svg="image"></Icon>
+              <Icon fill="#03a2c1" size={20} svg="image"></Icon>
               </div>
               <div className="tweetOptions">
-                <div className="tweet" onClick={saveTweet} style={{backgroundColor:"#27ae60"}}>Lounge</div>
+                <div className="tweet" onClick={saveTweet} style={{backgroundColor:"#03a2c1"}}>Lounge</div>
                 {/* <div className="tweet" onClick={maticTweet} style={{ backgroundColor: "#0b627a" }}>
                   <Icon fill="#ffffff" size={20} svg="matic" />
                 </div> */}

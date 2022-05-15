@@ -32,16 +32,15 @@ function NavBar() {
         <Link className="link" to="/">
           <p className="logo">
             <span style={{ fontWeight: "bold" }}>
-              <MdGraphicEq /> Launch
+              Ape 
             </span>
             <span
               style={{
                 fontStyle: "italic",
-                fontFamily: "PlayFair Display, sans-serif",
-                color: "#37BC96"
+                color: "#03a2c1"
               }}
             >
-              House
+              &nbsp;Lounge
             </span>
           </p>
         </Link>
@@ -67,19 +66,21 @@ function NavBar() {
             Profile
           </Link>
         </Navbar.Item>
-        <Navbar.Item>
-          <div className="details">
+        {/* <Navbar.Item> */}
+          {/* <div className="details"> */}
           {/* <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img> */}
-          <div className="profile">
+          {/* <div className="profile">
             <div className="who">
               {user.attributes.username.slice(0, 6)}
             </div>
             <div className="accWhen">
               {`${user.attributes.ethAddress.slice(0, 4)}...${user.attributes.ethAddress.slice(38)}`}
             </div>
-          </div>
-        </div>
-        <div
+          </div> */}
+        {/* </div> */}
+        {/* </Navbar.Item> */}
+        <Navbar.Item>
+          <div
               className="logout"
               onClick={() => {
                 Moralis.User.logOut().then(() => {
@@ -125,9 +126,9 @@ const Navbar = {
 
   Logo: styled.h1`
     position: relative;
-    top: 5px;
+    top: -2px;
     padding: 0 1rem 0 0;
-    color: black;
+    color: #fff;
   `,
 
   Items: styled.ul`
@@ -207,8 +208,8 @@ const HamburgerButton = {
       pointer-events: none;
       display: block;
       content: "";
-      width: 100%;
-      background-color: #000000;
+      width: 30px;
+      background-color: #fff;
       position: absolute;
     }
 

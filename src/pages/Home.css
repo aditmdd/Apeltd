@@ -25,9 +25,6 @@
     width:89%;
     background-color: transparent;
 }
-.tweetBox textarea {
-    background-color: transparent !important;
-}
 
 .profilePic {
     border-radius: 50%;

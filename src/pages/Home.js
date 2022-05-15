@@ -114,14 +114,15 @@ const Home = () => {
         <div className="profileTweet">
           <img src={user.attributes.pfp ? user.attributes.pfp : defaultImgs[0]} className="profilePic"></img>
           <div className="tweetBox">
-            <TextArea
+            <TextArea 
               label=""
               name="tweetTxtArea"
               value=""
               placeholder="Type Here..."
               type="text"
               onChange={(e) => setTweet(e.target.value)}
-              width="95%"
+              width="100%"
+              style={{ backgroundColor: "red !important"}}
             ></TextArea>
             {selectedFile && (
               <img src={selectedFile} className="tweetImg"></img>

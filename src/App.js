@@ -46,7 +46,11 @@ const App = () => {
       </div>
       ) : (
         <div className="loginPage">
-          <Icon fill="#ffffff" size={40} svg="twitter" />
+              <img src="https://i.imgur.com/W4UQ1CS.jpg" 
+                style={{borderRadius:"50%"}}
+                width="120"
+              ></img>
+              <h2 style={{color:"#fff"}}>Welcome to Ape Lounge</h2>
           <ConnectButton />
         </div>
 

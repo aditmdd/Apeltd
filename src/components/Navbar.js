@@ -138,13 +138,13 @@ const Navbar = {
     @media only screen and (max-width: 40em) {
       position: fixed;
       right: 0;
-      top: 0;
+      top: -20px;
 
       height: 100%;
 
       flex-direction: column;
 
-      background-color: #ffffff;
+      background-color: #272727;
       padding: 1rem 2rem;
 
       transition: 0.2s ease-out;

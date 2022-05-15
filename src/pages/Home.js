@@ -117,12 +117,11 @@ const Home = () => {
             <TextArea 
               label=""
               name="tweetTxtArea"
-              value=""
+              value="I think about..."
               placeholder="Type Here..."
               type="text"
               onChange={(e) => setTweet(e.target.value)}
               width="100%"
-              style={{ backgroundColor: "red !important"}}
             ></TextArea>
             {selectedFile && (
               <img src={selectedFile} className="tweetImg"></img>

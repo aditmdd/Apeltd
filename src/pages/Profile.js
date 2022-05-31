@@ -19,9 +19,9 @@ const Profile = () => {
       <div className="profileName">{user.attributes.username.slice(0, 6)}</div>
       <div className="profileWallet">{`${user.attributes.ethAddress.slice(0, 4)}...
             ${user.attributes.ethAddress.slice(38)}`}</div>
-      <Link to="/settings">
+      {/* <Link to="/settings">
           <div className="profileEdit">Edit profile</div>
-      </Link>
+      </Link> */}
       <div className="profileBio">
       {user.attributes.bio}
       </div>

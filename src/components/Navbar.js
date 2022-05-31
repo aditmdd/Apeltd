@@ -56,11 +56,11 @@ function NavBar() {
             Global Lounge
           </Link>
         </Navbar.Item>
-        {/* <Navbar.Item>
+        <Navbar.Item>
           <Link className="link" to="/profile">
             Your Lounge
           </Link>
-        </Navbar.Item> */}
+        </Navbar.Item>
         <Navbar.Item>
           <Link className="link" to="/settings">
             Profile
